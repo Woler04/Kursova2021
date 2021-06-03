@@ -12,16 +12,11 @@ footer {
 
 .background-video {
   /*     max-height: 100vh;*/
-  height: 100%;
-  width:100%;
+  
+  width:99.5vw;
+  height:100vh;
   z-index: 5;
   object-fit: cover;
-  /* object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0; */
 }
 
 .main-section
@@ -31,7 +26,7 @@ footer {
 
 .main-panel {
   position: relative;
-  bottom: 15vh;
+  bottom: 20vh;
   left: 50%;
   transform: translate(-50%, -50%);
 }
