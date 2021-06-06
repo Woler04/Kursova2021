@@ -36,6 +36,7 @@ footer {
 .main-panel {
   position: relative;
   left: 50%;
+  bottom:50vh;
   transform: translate(-50%,0%);
 }
 
