@@ -52,7 +52,7 @@
                 </ul>
             </div>
             <!-- ОПРАВИ ТОВА ДА ПРАЩА СЪПОБЩЕНИЕ КАКТО ПРЕДИ -->
-            <a href="">
+            <a href="#" onclick="WinDownload()">
                 <div class="nav-item float-right bg-warning px-5 py-4 font-weight-bold "
                     style=" letter-spacing: 0.25rem;">Изтегли</div>
             </a>
@@ -65,12 +65,16 @@
         <div class="mx-auto d-block text-center main-section">
             <video class="background-video" loop="loop" muted="muted" autoplay src="images/indexbgv.mp4"></video>
             <div class="main-panel position-relative">
-                <div class="trailer-button text-center text-light fancy display-4 justify-content-center text-nowrap">
-                    <button class="btn btn-light text-dark rounded-circle border-light"><i
+                <!-- N -->
+                <div class="trailer-button text-center text-light display-4 justify-content-center text-nowrap">
+                    <div class="fancy">
+                        <button class="btn btn-light text-dark rounded-circle border-light"><i
                             class="fas fa-play"></i></button>
-                </div>
-                <div class="text-light text-center text-glow my-3 mb-5" style="font-size: 2.3rem;">
-                    <span>Издаден на множество платформи - Изтегли Сега!</span>
+                    </div>
+                    
+                    <div class="text-light text-center text-glow my-3 mb-5" style="font-size: 2.3rem;">
+                        <span>Издаден на множество платформи - Изтегли Сега!</span>
+                    </div>
                 </div>
                 <div class="container px-5">
                     <ul class="row justify-content-between list-unstyled">
@@ -81,22 +85,15 @@
                         <li class="col-lg-3"><a
                                 href="https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact"
                                 target="_blank"><img src="images/GPlay.png" alt="google play logo"></a></li>
-                        <li class="col-lg-3"><a onclick="WinDownload()"><img src="images/Windows.png"
+                        <li class="col-lg-3"><a href="#" onclick="WinDownload()"><img src="images/Windows.png"
                                     alt="windows logo"></a></li>
                     </ul>
                 </div>
             </div>
-            <div class="d-flex position-relative ">
-                <img src="images/age_sign.png" alt="TEEN - alcohol refs and fantasy violence"
-                    class="col-1 p-0 pl-2 m-0 h-100">
-                <div class="text-light col-9">
-                    <div class="align-items-baseline">
-                        <div class="arrow-1 "><i class="fas fa-angle-down"></i></div>
-                        <div class="arrow-2 "><i class="fas fa-angle-down"></i></div>
-                        <div class="arrow-3 "><i class="fas fa-angle-down"></i></div>
-                    </div>
-                </div>
+            <div class="position-static float-left">
+                <img src="images/age_sign.png" alt="TEEN - alcohol refs and fantasy violence" class="w-100">
             </div>
+        </div>
         </div>
         <div class="container news text-light text-center ">
             <h1 class="text-nowrap fancy display-4 py-5">НОВИНИ</h1>
