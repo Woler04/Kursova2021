@@ -53,7 +53,15 @@ footer {
 }
 
 /* News section */
-
+/*"custom classes"*/
+.pos-relative
+{
+  position: relative;
+}
+.pos-absolute
+{
+  position: absolute;
+}
 
 /* fancy stuff */
 
