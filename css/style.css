@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+ 
 }
 
 main {
@@ -41,18 +41,19 @@ footer {
 }
 
 .background-video {
-  width: 100vw;
-  height: 100vh;
+  width:100%;
+  height: 100%;
   z-index: -5;
   object-fit: cover;
 }
 
+.bgv{
+  width: 100%;
+  height: 100vh;
+}
+
 /* News section */
 
-.news {
-  background: #ad9c78;
-  background-image: url("/images/news.jpg");
-}
 
 /* fancy stuff */
 
